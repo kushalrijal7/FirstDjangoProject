@@ -1,0 +1,12 @@
+#This is a txt file
+
+retrieving this file using assignment function
+
+code looks like:
+def assignment(request):
+    file = open("1.txt","r+"),
+    return HttpResponse(file.read()),
+
+note: r+ is used to read and write in a file
+      file.read function is used to read the file
+      
